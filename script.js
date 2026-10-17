@@ -26,7 +26,7 @@ const students = [
   { name: "Tetaplah Bersamaku (Nobitasan)", music: "Tetaplah Bersamaku.mp3", type: "Pop Punk", image: "nobitasan.jpg" },
   { name: "Tersimpan (Our Story)", music: "OUR STORY - TERSIMPAN (Official Lyric Video).mp3", type: "Pop Punk", image: "our story.png" },
   { name: "Story In My Heart (Starlit)", music: "Starlit - Story In My Heart.mp3", type: "Pop Punk", image: "starlit.png" },
-  { name: "Pergi Hilang Dan Lupakan (Remember Of Today)", music: "Pergi Hilang dan Lupakan - Remember Of Today ( lirik lagu).mp3", type: "Pop Punk", image: "remember of today.png" },
+  { name: "Pergi Hilang Dan Lupakan (Remember Of Today)", music: "Pergi Hilang dan Lupakan - Remember Of Today ( lirik lagu).mp3", type: "Pop Punk", image: "ROT.png" },
   { name: "Terima Kasih (Rebellion Rose)", music: "Rebellion Rose - Terima Kasih (Officia) Video Lirik.mp3", type: "Punk Rock", image: "rebbelion rose.png" },
   { name: "Aku, Kamu Dan Samudra (Rebellion Rose)", music: "Rebellion Rose - Aku, Kamu dan Samudra (Official) Video Lirik.mp3", type: "Punk Rock", image: "rebbelion rose.png" },
   { name: "Bulan & Ksatria (Superman Is Dead)", music: "Superman Is Dead - Bulan & Ksatria (Official Lyric Video).mp3", type: "Punk Rock", image: "SID.jpg" },
