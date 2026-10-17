@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Playlist FAV</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Bagian atas website -->
+  <header class="topbar">
+    <h1>Playlist Aing</h1>
+    <div class="stats">WELCOME :)</div>
+  </header>
+
+  <main class="container">
+    <section class="student-panel">
+      <div class="panel-header">
+        <h2>▣ My FAV Music</h2>
+
+        <!-- Tombol untuk menyaring tipe karakter -->
+        <div class="filters">
+          <button class="filter-button active" data-filter="All">ALL</button>
+          <button class="filter-button" data-filter="Pop Punk">POP PUNK</button>
+          <button class="filter-button" data-filter="Punk Rock">PUNK ROCK</button>
+        </div>
+
+        <input id="search-input" type="text" placeholder="Cari Musik...">
+        <select id="sort-select" aria-label="Urutkan karakter">
+          <option value="name">Nama A-Z</option>
+        </select>
+      </div>
+
+      <!-- Kartu karakter akan ditampilkan di bagian ini oleh JavaScript -->
+      <div id="student-list" class="student-grid"></div>
+      <p class="hint">Klik gambar logo untuk memperbesar gambar dan memainkan musik.</p>
+    </section>
+  </main>
+
+  <!-- Jendela pop-up saat karakter dipilih -->
+  <div id="character-modal" class="modal">
+    <div class="modal-card">
+
+      <!-- Tombol untuk menyembunyikan karakter -->
+<button id="hide-character-btn" class="character-control-btn">
+  👁️ Sembunyikan
+    </button>
+
+      <button id="close-modal" class="close-button" aria-label="Tutup">×</button>
+      <img id="large-image" src="" alt="Gambar karakter">
+      <h2 id="large-name"></h2>
+      <p id="large-info"></p>
+      <p class="music-label">♫ Musik sedang dimainkan</p>
+      
+<!-- Pengatur volume musik -->
+<div class="volume-control">
+  <label for="volume-slider">🔊 Volume Musik</label>
+
+  <input
+    type="range"
+    id="volume-slider"
+    min="0"
+    max="100"
+    value="50"
+  >
+
+  <span id="volume-value">50%</span>
+</div>
+
+    </div>
+  </div>
+  
+  <button id="show-character-btn" type="button" style="display: none;">
+  👁️ Tampilkan
+</button>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
